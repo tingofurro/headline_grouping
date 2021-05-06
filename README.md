@@ -15,6 +15,11 @@ data = load_dataset('hlgd')
 
 ## Model Releases
 
+We release two models:
+
+- `classifier_electra_hlpc_1_f1_0.7442.bin` model corresponds to the `Electra Finetune on HLGD + Time` in the paper. It is compatible with a HuggingFace `AutoModelForSequenceClassification` model, using the model card: `google/electra-small-discriminator`
+
+- `gpt2med_headline_gen_1.645.bin` model corresponds to the headline generator used for the `Headline Generator Swap` results. It can be used in conjunction with the `model_generator_swap.py` file.
 
 ## Cite the work
 
@@ -28,7 +33,6 @@ If you make use of the code, models, or algorithm, please cite our paper:
   year={2021}
 }
 ```
-
 
 ## Contributing
 
