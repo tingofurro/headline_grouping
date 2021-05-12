@@ -2,6 +2,11 @@
 
 This repository will contain the dataset and models described in NAACL2021 paper: [News Headline Grouping as a Challenging NLU Task](https://people.eecs.berkeley.edu/~phillab/pdfs/NAACL2021_HLG.pdf).
 
+<p align="center">
+  <img width="445" height="233" src="https://people.eecs.berkeley.edu/~phillab/images/naacl2021_headline_grouping_example.png"><br />
+  Example Headline Groups from the <i>International Space Station</i> timeline.
+</p>
+
 ## Dataset Releases
 
 [In the release](https://github.com/tingofurro/headline_grouping/releases/tag/0.1), we provide two versions of the HLGD:
@@ -12,6 +17,8 @@ This repository will contain the dataset and models described in NAACL2021 paper
 from datasets import load_dataset
 data = load_dataset('hlgd')
 ```
+
+Note: We considered the legal component of the release of HLGD, and consider that the release of the dataset falls under fair use. [See more detail here](https://github.com/tingofurro/headline_grouping/blob/main/LEGAL.md)
 
 ## Model Releases
 
