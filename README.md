@@ -1,9 +1,9 @@
 # HeadLine Grouping
 
-This repository will contain the dataset and models described in NAACL2021 paper: [News Headline Grouping as a Challenging NLU Task](https://people.eecs.berkeley.edu/~phillab/pdfs/NAACL2021_HLG.pdf).
+This repository will contain the dataset and models described in NAACL2021 paper: [News Headline Grouping as a Challenging NLU Task](https://tingofurro.github.io/pdfs/NAACL2021_HLG.pdf).
 
 <p align="center">
-  <img width="445" height="233" src="https://people.eecs.berkeley.edu/~phillab/images/naacl2021_headline_grouping_example.png"><br />
+  <img width="445" height="233" src="https://tingofurro.github.io/images/naacl2021_headline_grouping_example.png"><br />
   Example Headline Groups from the <i>International Space Station</i> timeline.
 </p>
 
